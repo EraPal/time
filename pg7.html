@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  rgb(255, 158, 229);
+}
+.buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 40px;
+   padding-left: 30;
+   padding-right: 30;
+    font-weight: bold;
+    color: rgb(247, 249, 251);
+    text-align: center;
+    margin-top: 50px;
+   margin-left: 80px;
+   margin-right: 80px;
+    margin-bottom: 20px;
+}
+img {
+            width: 60vmin;
+            height: auto;
+        }
+.btn {
+            background-color: rgb(255, 85, 221);
+            color: white;
+            padding: 30px 60px;
+            justify-content: center;
+            text-align: center;
+            display: inline-block;
+            font-size: 24px;
+            margin: 10px 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 12px;
+            transition: background-color 0.3s ease;
+        }
+
+.gif_container {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+</style>
+        
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">My love for you simply won't fade becoz we are angry. I know we will fight. We will be frustated, we will be human. Still I will go to battle for you, still I will choose you, and keep choosing you , every single day.</h1>
+            </div>
+            <div class="gif_container">
+                <img src="mad.gif">
+               
+            </div>
+            <div class="buttons">
+                <button class="btn" id="yesButton" onclick="nextPage()">I wanna tell you something</button>
+               
+            </div>
+            <script>
+                function nextPage() {
+                        window.location.href = "pg8.html";
+                    }
+
+            </script>
+            
+
+        </div>
+       
+    </body> 
+</html>

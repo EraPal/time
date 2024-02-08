@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  rgb(255, 156, 237);
+}
+.buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 40px;
+    padding-top: 5;
+    font-weight: bold;
+    color: rgb(255, 249, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+img {
+            width: 70vmin;
+            height: auto;
+        }
+.btn {
+            background-color: rgb(218, 51, 221);
+            color: white;
+            padding: 30px 60px;
+            justify-content: center;
+            text-align: center;
+            display: inline-block;
+            font-size: 24px;
+            margin: 10px 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 12px;
+            transition: background-color 0.3s ease;
+        }
+
+.gif_container {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+</style>
+        
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">Our random dancing sessions <br> (inspite of my toxic trait that i try to do every hook step)</h1>
+            </div>
+            <div class="gif_container">
+                <img src="dance.gif">
+               
+            </div>
+            <div class="buttons">
+                <button class="btn" id="yesButton" onclick="nextPage()">I wanna tell you something</button>
+               
+            </div>
+            <script>
+                function nextPage() {
+                        window.location.href = "pg7.html";
+                    }
+
+            </script>
+            
+
+        </div>
+       
+    </body> 
+</html>
